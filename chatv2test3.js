@@ -20,6 +20,7 @@ class ChatWidget extends HTMLElement {
       // Load React and dependencies from CDN
       await this.loadScript('https://unpkg.com/react@18/umd/react.production.min.js');
       await this.loadScript('https://unpkg.com/react-dom@18/umd/react-dom.production.min.js');
+      await this.loadScript('https://cdn.tailwindcss.com')
       
       console.log('✅ React loaded successfully');
       this.renderReactApp();
