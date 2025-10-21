@@ -239,7 +239,7 @@ class ChatWidget extends HTMLElement {
             borderRadius: '30px',
             position: 'fixed',
             bottom: '20px',
-            right: '20px',
+            left: '20px',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
