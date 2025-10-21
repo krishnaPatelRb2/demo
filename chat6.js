@@ -351,7 +351,7 @@ class ChatWidget extends HTMLElement {
 
   renderFallback() {
     // Simple fallback without React
-    this.innerHTML = \`
+    this.innerHTML = `
       <div style="
         position: fixed;
         bottom: 20px;
@@ -375,7 +375,7 @@ class ChatWidget extends HTMLElement {
           💬
         </button>
       </div>
-    \`;
+    `;
   }
 }
 
