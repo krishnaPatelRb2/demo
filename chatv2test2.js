@@ -279,7 +279,7 @@
 
     renderFallback() {
       // Simple fallback
-      this.innerHTML = \`
+      this.innerHTML = `
         <div class="fixed bottom-5 left-5 z-50">
           <button class="bg-blue-500 hover:bg-blue-600 text-white rounded-full w-15 h-15 flex items-center justify-center cursor-pointer shadow-lg transition-transform hover:scale-110"
             onclick="this.parentElement.innerHTML = \\'
@@ -300,7 +300,7 @@
             💬
           </button>
         </div>
-      \`;
+      `;
     }
   }
 
