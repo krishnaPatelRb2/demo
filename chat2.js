@@ -49,7 +49,7 @@ class ChatWidget extends HTMLElement {
         </style>
 
         <div class="chat-widget-container">
-          <button class="chat-toggle-btn" id="chatToggle">💬 TEST</button>
+          <button class="chat-toggle-btn" id="chatToggle">💬 TEST2</button>
         </div>
       `;
       
